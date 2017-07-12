@@ -1,5 +1,4 @@
-FROM node:slim
-MAINTAINER Kazuya Yokogawa "yokogawa-k@klab.com"
+FROM node:8.1-slim
 
 RUN npm install -g \
     textlint \
